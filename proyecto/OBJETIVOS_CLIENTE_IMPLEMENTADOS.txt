@@ -1,0 +1,31 @@
+OBJETIVOS DEL CLIENTE IMPLEMENTADOS EN AGROCONNECT
+
+1. Plataforma única para controlar explotaciones agrícolas
+- Añadido acceso desde paneles de SuperAdmin, jefe y trabajador.
+- Nuevas secciones: parcelas, cultivos, recursos, tareas e histórico.
+
+2. Registro y consulta de parcelas, cultivos y recursos
+- parcelas.php: alta y listado de parcelas por empresa.
+- cultivos.php: alta y seguimiento de cultivos por parcela.
+- recursos.php: inventario de maquinaria, herramientas, insumos, agua y personal.
+
+3. Visibilidad del estado mediante paneles intuitivos
+- Panel SuperAdmin con accesos rápidos globales.
+- Panel Jefe con accesos de explotación agrícola de su empresa.
+- Panel Trabajador con consulta operativa de parcelas, cultivos, tareas e histórico.
+
+4. Planificación de tareas e históricos
+- tareas.php: planificación de riego, siembra, tratamiento, revisión, cosecha u otras tareas.
+- historico.php: registro de actividades realizadas por fecha, parcela, empresa y usuario.
+
+5. Roles diferenciados
+- SuperAdmin: puede ver y gestionar todas las empresas y módulos.
+- Jefe: gestiona solo la información de su empresa y crea trabajadores.
+- Trabajador: consulta/usa módulos de su empresa y puede registrar actividad.
+- El registro público sigue cerrado.
+
+6. Accesible desde cualquier dispositivo
+- Se mantiene Bootstrap y el CSS responsive ya mejorado.
+
+IMPORTANTE
+Importar actualizacion_superadmin.sql en phpMyAdmin antes de probar estos módulos.

@@ -1,0 +1,18 @@
+MÓDULO PROFESIONAL DE TAREAS IMPLEMENTADO
+
+1. El jefe puede crear tareas y asignarlas a trabajadores de su empresa.
+2. El superadmin puede crear tareas para cualquier empresa y trabajador.
+3. El trabajador solo ve sus propias tareas asignadas.
+4. El trabajador puede cambiar el estado de una tarea:
+   - pendiente
+   - en_proceso
+   - completada
+   - incidencia
+5. El jefe y el superadmin pueden revisar y cambiar estados.
+6. Cada tarea incluye prioridad, parcela, tipo, fecha programada, fecha límite y observaciones.
+7. Al crear o actualizar una tarea se registra automáticamente en historico_actividades.
+8. El panel del jefe muestra estadísticas reales de trabajadores, parcelas, cultivos y tareas.
+9. El panel del trabajador muestra tareas pendientes, en proceso, completadas e incidencias.
+
+PASO NECESARIO:
+Importar actualizacion_superadmin.sql en phpMyAdmin antes de probar.

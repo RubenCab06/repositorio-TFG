@@ -1,0 +1,31 @@
+MEJORAS APLICADAS EN LA PRESENTACIÓN DE AGROCONNECT
+
+1. Se ha sustituido el style.css completo por una versión más profesional y uniforme.
+2. Se ha unificado el ancho máximo de cabecera, hero, contenido, formularios y paneles.
+3. Se ha corregido el uso inconsistente de tarjetas para que queden alineadas y con el mismo estilo.
+4. Se han añadido sombras, bordes, radios y espaciados coherentes en toda la web.
+5. Se ha mejorado el header: logo más proporcionado, navegación alineada y botón de login uniforme.
+6. Se ha mejorado el hero de las páginas públicas para que tenga aspecto de landing profesional.
+7. Se han mejorado formularios, inputs, botones y estados focus.
+8. Se han adaptado las páginas de administración a la misma identidad visual.
+9. Se ha añadido responsive para móvil/tablet.
+
+ARCHIVO PRINCIPAL MODIFICADO:
+- style.css
+
+PÁGINAS AJUSTADAS:
+- index.php
+- sobrenosotros.php
+- servicios.php
+- contacto.php
+- login.php
+- registro.php
+- superadmin.php
+- empresas.php
+- empresa_detalle.php
+- usuarios.php
+- jefe.php
+- trabajador.php
+
+NOTA FUNCIONAL IMPORTANTE:
+El archivo registro.php todavía permite que un usuario cree una empresa desde el formulario público, y además lo registra como trabajador. Si el flujo final debe ser: superadmin crea empresas/jefes y cada jefe crea sus trabajadores, habría que cambiar también esa lógica.
